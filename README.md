@@ -7,4 +7,4 @@ Mi página web va a contar con 7 páginas:
 
 **Página Inicial**
 
-Esta es mi página principal, la cual cuenta con una cabecera "<header>"
+Esta es mi página principal, la cual cuenta con una cabecera "header"
