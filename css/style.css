@@ -36,6 +36,7 @@ article {
   flex-direction: row;
   gap: 1rem;
   margin-bottom: 1rem;
+  justify-content: space-between;
 }
 
 article img {
@@ -96,4 +97,20 @@ header input {
 
 a {
   text-decoration: none;
+}
+
+section.tienda {
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+}
+
+img.tienda {
+  display: inline-block;
+  width: 20%;
+  justify-content: space-between;
+}
+
+p.tienda {
+   width: 13%;
 }
