@@ -76,6 +76,10 @@ input.header  {
     width: 10rem;
 }
 
+button.header:hover  {
+  transform: scale(1.2);
+}
+
 li a{
   color: white;
   justify-content: space-between;
@@ -116,6 +120,10 @@ img.tienda {
   width: 20%;
   justify-content: space-between;
   border: 1px solid black;
+
+}
+img.tienda:hover {
+  transform: scale(1.1);
 }
 
 p.tienda {
@@ -132,4 +140,28 @@ p.carrito {
   margin: 1rem;
   border: 1px solid black;
   height: 80%;
+}
+
+button.tienda:hover {
+  transform: scale(1.1);
+}
+
+main.carrito {
+  display: flex;
+  flex-direction: row;
+}
+
+section.carrito {
+  border: 2px solid black;
+  width: 50%;
+  height: 68%;
+}
+
+article.carrito {
+  height: 20%;
+  border: none;
+}
+
+img.carrito {
+  width: 30%;
 }
