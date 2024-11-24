@@ -14,7 +14,7 @@ html, body {
 
 
 header, footer {
-  background-color: #6a1b9a;  
+  background-color: #6a1b9a;
   padding: 1rem;
   color: white;
   display: flex;
@@ -28,7 +28,7 @@ main {
 }
 
 
-article {
+article.index {
   border-radius: 0.5rem;
   width: 100%;
   display: flex;
@@ -132,13 +132,19 @@ p.tienda {
 }
 
 article.tienda {
-  border: 2px solid black;
+  border-radius: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  border: black solid 2px;
 }
 
 p.carrito {
   width: 80%;
   margin: 1rem;
-  border: 1px solid black;
   height: 80%;
 }
 
@@ -152,16 +158,53 @@ main.carrito {
 }
 
 section.carrito {
-  border: 2px solid black;
+  background-color: white;
+  border: black solid 10px;
+  border-radius: 0.5rem;
   width: 50%;
-  height: 68%;
+  height: 100%;
 }
 
-article.carrito {
-  height: 20%;
-  border: none;
+section.vacio {
+  width: 25%;
+  height: 68%;
 }
+article.carrito {
+  border-radius: 0.5rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+article.carrito_preciototal {
+width: 100%;
+height: 10rem;
+border: none;
+margin: 1rem;
+padding: 1rem;
+
+}
+
 
 img.carrito {
   width: 30%;
+  border: none;
+}
+
+p.carrito {
+  width: 50%;
+  margin: 1rem;
+  border: none;
+}
+
+p.preciototal {
+  width: 35%;
+  margin: 1rem;
+  border-top: black solid 1px;
+  margin-bottom: 1rem;
+}
+
+button.carrito:hover {
+  transform: scale(1.2);
 }
