@@ -223,3 +223,29 @@ img.campeones{
   width: 8rem;
   height: 8rem;
 }
+
+article.boston {
+  background: white;
+  border: black solid 1px;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+p.boston {
+  margin: 1rem;
+  width: 70%
+}
+
+img.boston {
+  width: 30%;
+  height: 80%;
+  border: none;
+}
+
+h1.boston {
+  margin: 1rem;
+  color: darkgreen;
+}
+
