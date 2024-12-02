@@ -14,7 +14,6 @@ html, body {
   font-family: Arial, sans-serif;
 }
 
-
 header.inicio, footer.inicio {
   background-color: #00398a;
   color: white;
@@ -32,11 +31,24 @@ button.header {
   font-size: 1rem;
   border-radius: 0.313rem;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+input.header {
+  width: 30%;
+  height: 2rem;
+  background: lightblue;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: darkblue;
+  border-radius: 2rem;
 }
 
 main {
   background-color: white;
-  padding: 1rem 2rem;
   min-height: 100vh;
 }
 
@@ -54,7 +66,7 @@ p.inicio {
 
 img.inicio {
   margin: 1rem;
-  width: 90rem;
+  width: 93rem;
   height: 50rem;
   border-radius: 1rem;
 }
@@ -66,21 +78,21 @@ footer {
 }
 
 img.header {
-    height: 6.25rem;
-    width: 9.375rem;
+  height: 6.25rem;
+  width: 9.375rem;
 }
 img.funciones {
-    height: 2.5rem;
-    width: 2.5rem;
-    align-items: flex-end;
+  height: 2.5rem;
+  width: 2.5rem;
+  align-items: flex-end;
 }
 
 input.header  {
-    width: 10rem;
+  width: 10rem;
 }
 
 button.header:hover  {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 li a{
@@ -92,7 +104,7 @@ li a{
 
 }
 section.header {
-  width: 50%;
+  width: 100%;
 }
 
 
@@ -115,6 +127,17 @@ a {
 section.tienda {
   display: flex; flex-wrap: wrap;
   justify-content: space-between;
+  margin: 1rem;
+}
+
+section.cabecera_tienda {
+  width: 100%;
+  height: 60rem;
+}
+
+img.cabecera_tienda {
+  width: 100%;
+  height: 60rem;
 }
 
 img.tienda {
@@ -187,15 +210,15 @@ h1.atlanta {
 }
 
 button.atlanta {
-   background-color: #c6cc65;
-   color: white;
-   border: none;
-   padding: 0.500rem 1rem;
-   text-align: center;
-   font-size: 1rem;
-   border-radius: 0.313rem;
-   cursor: pointer;
- }
+  background-color: #c6cc65;
+  color: white;
+  border: none;
+  padding: 0.500rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
 
 h1.Chicago {
   font-family: 'Space Grotesk', sans-serif;
@@ -350,11 +373,11 @@ article.carrito {
 }
 
 article.carrito_preciototal {
-width: 100%;
-height: 10rem;
-border: none;
-margin: 1rem;
-padding: 1rem;
+  width: 100%;
+  height: 10rem;
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
 
 }
 
@@ -402,9 +425,10 @@ img.campeones{
 
 article.boston {
   border: black solid 0.125rem;
-  width: 100%;
+  width: 98%;
   height: 20%;
   display: flex;
+  margin: 1rem;
 }
 
 p.boston {
@@ -417,24 +441,84 @@ img.boston {
   height: 80%;
   border: none;
   margin: 1rem;
+  border-radius: 1rem;
 }
 
 h1.boston {
   margin: 1rem;
-  color: darkgreen;
+  color: #008346;
 }
 
 img.torneos {
-  width: 90rem;
+  width: 98%;
   height: 50rem;
   border-radius: 1rem;
+  margin: 1rem;
 }
 
 header.boston, footer.boston {
-  background-color: darkgreen;
+  background-color: #008346;
   color: white;
   display: flex;
   padding: 1rem 2rem;
   justify-content: space-between;
 }
 
+button.boston {
+  background-color:  lightgreen ;
+  color: darkgreen;
+  border: none;
+  padding: 0.500rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input.boston {
+  width: 13%;
+  height: 2rem;
+  background: lightgreen ;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: darkgreen;
+  border-radius: 2rem;
+}
+
+
+header.torneos, footer.torneos {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+button.torneos {
+  background-color:  white ;
+  color: black;
+  border: none;
+  padding: 0.500rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.313rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input.torneos {
+  width: 13%;
+  height: 2rem;
+  background: white ;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: black;
+  border-radius: 2rem;
+}
