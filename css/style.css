@@ -23,7 +23,8 @@ header.inicio, footer.inicio {
 }
 
 button.header {
-  background-color:  #7ba3fb ;
+  height: 3rem;
+  background-color: #7ba3fb;
   color: white;
   border: none;
   padding: 0.500rem 1rem;
@@ -32,19 +33,23 @@ button.header {
   border-radius: 0.313rem;
   cursor: pointer;
   transition: 0.5s;
+  margin-right: 11rem;
+  margin-top: 2rem;
 }
 
 input.header {
-  width: 30%;
+  width: 40%;
   height: 2rem;
   background: lightblue;
-  flex: 1;
+  /* flex: 1; */
   border: 0;
   outline: none;
   padding: 24px 20px;
   font-size: 20px;
   color: darkblue;
   border-radius: 2rem;
+  margin-top: 2rem;
+  margin-left: 9rem;
 }
 
 main {
@@ -56,6 +61,7 @@ h1.inicio {
   text-align: center;
   color: #00398a;
   font-size: 4rem;
+  margin: 1rem;
 }
 
 p.inicio {
@@ -87,10 +93,6 @@ img.funciones {
   align-items: flex-end;
 }
 
-input.header  {
-  width: 10rem;
-}
-
 button.header:hover  {
   transform: scale(1.15);
 }
@@ -105,29 +107,41 @@ li a{
 }
 section.header {
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-right: 0;
   padding: 0;
   display: flex;
 }
 
 header input {
-  width: 90%;
+  width: 40%;
   margin: 1rem;
 }
 
-a {
+a.inicio {
   text-decoration: none;
+}
+
+a.inicio:hover {
+  color: orangered;
 }
 
 section.tienda {
   display: flex; flex-wrap: wrap;
   justify-content: space-between;
   margin: 1rem;
+}
+
+section.tienda_cabecera {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 section.cabecera_tienda {
@@ -323,7 +337,6 @@ article.tienda {
   border: gray solid 2px;
   background-color: white;
   padding: 1rem;
-  margin-top: 1rem;
 }
 
 p.carrito {
@@ -339,6 +352,7 @@ button.tienda:hover {
 main.carrito {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 section.carrito {
@@ -347,6 +361,7 @@ section.carrito {
   border-radius: 0.5rem;
   width: 50%;
   height: 100%;
+  margin: 2rem;
 }
 
 button.tienda {
@@ -360,10 +375,22 @@ button.tienda {
   cursor: pointer;
 }
 
-section.vacio {
-  width: 25%;
-  height: 68%;
+article.carrito_total {
+  border-radius: 0.5rem;
+  width: 100%;
+  gap: 1rem;
+  margin: 1rem;
 }
+
+section.carrito_total {
+  background: white;
+  border: black solid 0.125rem;
+  border-radius: 0.5rem;
+  width: 30%;
+  height: 30%;
+  margin: 2rem;
+}
+
 article.carrito {
   border-radius: 0.5rem;
   width: 100%;
@@ -372,32 +399,49 @@ article.carrito {
   margin: 1rem;
 }
 
-article.carrito_preciototal {
-  width: 100%;
-  height: 10rem;
-  border: none;
-  margin: 1rem;
-  padding: 1rem;
-
+p.carrito {
+  width: 40%;
+  height: 30%;
 }
-
 
 img.carrito {
-  width: 30%;
+  width: 40%;
   border: none;
 }
 
-p.carrito {
+p.carrito_total {
+  width: 90%;
+  border-bottom: black solid 0.125rem;
+}
+
+article.carrito2 {
+  padding: 1rem;
   width: 50%;
-  margin: 1rem;
-  border: none;
+  display: block;
+
+
 }
 
 p.preciototal {
-  width: 35%;
+  width: 90%;
+}
+
+h1.carrito {
+  font-size: 1rem;
+  width: 50%;
+}
+
+button.carrito_total {
+  background-color: #00398a;
+  color: white;
+  border: none;
+  padding: 0.250rem 0.500rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 30%;
+  border-radius: 0.313rem;
+  cursor: pointer;
   margin: 1rem;
-  border-top: black solid 1px;
-  margin-bottom: 1rem;
 }
 
 button.carrito:hover {
@@ -421,6 +465,11 @@ article.campeones{
 img.campeones{
   width: 10rem;
   height: 10rem;
+  margin: 0.500rem;
+}
+
+img.campeones:hover{
+  cursor: pointer;
 }
 
 article.boston {
@@ -444,6 +493,14 @@ img.boston {
   border-radius: 1rem;
 }
 
+a.boston {
+  text-decoration: none;
+}
+
+a.boston:hover {
+  color: black;
+}
+
 h1.boston {
   margin: 1rem;
   color: #008346;
@@ -465,7 +522,8 @@ header.boston, footer.boston {
 }
 
 button.boston {
-  background-color:  lightgreen ;
+  height: 3rem;
+  background-color: lightgreen;
   color: darkgreen;
   border: none;
   padding: 0.500rem 1rem;
@@ -474,21 +532,32 @@ button.boston {
   border-radius: 0.313rem;
   cursor: pointer;
   transition: 0.5s;
+  margin-right: 11rem;
+  margin-top: 2rem;
 }
 
 input.boston {
-  width: 13%;
+  width: 40%;
   height: 2rem;
-  background: lightgreen ;
-  flex: 1;
+  background: lightgreen;
+  /* flex: 1; */
   border: 0;
   outline: none;
   padding: 24px 20px;
   font-size: 20px;
   color: darkgreen;
   border-radius: 2rem;
+  margin-top: 2rem;
+  margin-left: 9rem;
 }
 
+a.torneos {
+  text-decoration: none;
+}
+
+a.torneos:hover {
+  color: gold;
+}
 
 header.torneos, footer.torneos {
   background-color: black;
@@ -499,7 +568,8 @@ header.torneos, footer.torneos {
 }
 
 button.torneos {
-  background-color:  white ;
+  height: 3rem;
+  background-color: white;
   color: black;
   border: none;
   padding: 0.500rem 1rem;
@@ -508,17 +578,21 @@ button.torneos {
   border-radius: 0.313rem;
   cursor: pointer;
   transition: 0.5s;
+  margin-right: 11rem;
+  margin-top: 2rem;
 }
 
 input.torneos {
-  width: 13%;
+  width: 40%;
   height: 2rem;
-  background: white ;
-  flex: 1;
+  background: white;
+  /* flex: 1; */
   border: 0;
   outline: none;
   padding: 24px 20px;
   font-size: 20px;
   color: black;
   border-radius: 2rem;
+  margin-top: 2rem;
+  margin-left: 9rem;
 }
