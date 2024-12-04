@@ -596,3 +596,122 @@ input.torneos {
   margin-top: 2rem;
   margin-left: 9rem;
 }
+
+.tabla-equipos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.tabla-equipos th, .tabla-equipos td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.tabla-equipos th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.imagen-equipo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.tabla-equipos tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tabla-equipos tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+--------------
+
+.main-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-section {
+  margin-top: 5rem;
+  margin-left: 34rem;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px black solid;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-size: 16px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-login, .btn-register {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-login:hover, .btn-register:hover {
+  background-color: #0056b3;
+}
+
+.btn-register {
+  background-color: #28a745;
+}
+
+.btn-register:hover {
+  background-color: #218838;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
