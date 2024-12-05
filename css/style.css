@@ -419,7 +419,6 @@ article.tienda {
 
 /* Media Queries */
 
-/* Resolución 590px x 650px */
 @media (min-width: 590px) and (max-width: 650px) {
 
   section.tienda {
@@ -458,9 +457,8 @@ article.tienda {
     margin: 1rem 0;
   }
 
-  /* Ajustamos los artículos para que quepan tres por fila */
   article.tienda {
-    width: 31%;  /* Ajustamos el ancho para 3 artículos por línea */
+    width: 31%;
     height: auto;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -470,7 +468,7 @@ article.tienda {
   }
 }
 
-/* Resolución 1400px x 1080px */
+
 @media (min-width: 1080px) and (max-width: 1400px) {
 
   section.tienda {
@@ -507,9 +505,8 @@ article.tienda {
     font-size: 1rem;
   }
 
-  /* Ajustamos los artículos para que quepan tres por fila */
   article.tienda {
-    width: 31%;  /* Ajustamos el ancho para 3 artículos por línea */
+    width: 31%;
     height: 50rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -519,7 +516,6 @@ article.tienda {
   }
 }
 
-/* Resolución menor a 590px (para dispositivos móviles más pequeños) */
 @media (max-width: 590px) {
 
   section.tienda {
@@ -558,9 +554,8 @@ article.tienda {
     margin: 1rem 0;
   }
 
-  /* Los artículos ocuparán el 100% en pantallas más pequeñas */
   article.tienda {
-    width: 100%;  /* Ancho al 100% para pantallas pequeñas */
+    width: 100%;
     height: auto;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -854,13 +849,14 @@ img.boston {
 }
 
 img.equipos {
-  width: 12%;
+  height: 23%;
 }
 
 section.equipos{
   width: 100%;
   height: 100vh;
   display: flex;
+  justify-content: center;
 }
 
 article.equipos{
@@ -1102,27 +1098,25 @@ h1.boston {
 }
 
 /* Media Queries */
-
-/* Resolución 590px x 650px */
 @media (min-width: 590px) and (max-width: 650px) {
 
   article.boston {
-    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    flex-direction: column;
     height: auto;
   }
 
   p.boston {
-    width: 90%; /* Ajusta el tamaño de párrafo */
+    width: 90%;
     margin: 1rem auto;
   }
 
   img.boston_parrafo {
-    width: 80%; /* Aumenta el tamaño de la imagen para que ocupe más espacio */
+    width: 80%;
     margin: 1rem auto;
   }
 
   h1.boston {
-    font-size: 1.5rem; /* Ajusta el tamaño de los títulos */
+    font-size: 1.5rem;
   }
 }
 
@@ -1136,7 +1130,7 @@ h1.boston {
 
   p.boston {
     width: 60%;
-    font-size: 1.25rem; /* Ajusta el tamaño de fuente */
+    font-size: 1.25rem;
   }
 
   img.boston_parrafo {
@@ -1144,22 +1138,22 @@ h1.boston {
   }
 
   h1.boston {
-    font-size: 2rem; /* Aumenta el tamaño de los títulos */
+    font-size: 2rem;
   }
 }
 
-/* Resolución menor a 590px (dispositivos móviles más pequeños) */
+
 @media (max-width: 590px) {
 
   article.boston {
-    flex-direction: column; /* Cambia a columna para dispositivos pequeños */
+    flex-direction: column;
     height: auto;
   }
 
   p.boston {
     width: 90%;
     margin: 1rem auto;
-    font-size: 1rem; /* Ajusta el tamaño del texto en móviles */
+    font-size: 1rem;
   }
 
   img.boston_parrafo {
@@ -1168,7 +1162,7 @@ h1.boston {
   }
 
   h1.boston {
-    font-size: 1.25rem; /* Ajusta el tamaño del título para dispositivos móviles */
+    font-size: 1.25rem;
   }
 }
 
